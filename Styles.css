@@ -35,7 +35,7 @@
 {
 	display: block;
 	width: 100%;
-	border: 0px solid;
+	border: 1px solid;
 	height: 532px;
 }
 .preview_img
@@ -111,9 +111,19 @@
 .catalog
 {
 	display: block;
-	width: 700px;
-	height: 975px;
+
+	top: 508px;
+	left: 337px;
+/*	width:  700px;
+	height: 400px;/*975px;*/
+
+	width:  700px;
+	height: 700px;/*975px;*/
+
 	background-color: yellow;
+	transform: rotate(-90deg);
+
+	padding-left: 0px;
 }
 .page_num
 {
@@ -121,4 +131,41 @@
 	width: 700px;
 	height: 87px;
 	background-color: coral;	
+}
+/*.catalog
+{
+	-moz-columns: 160px 2;
+    -webkit-columns: 50px 5;
+    columns: 160px 2;
+    height: 200px;
+}*/
+.myday
+{
+	width: 150px;
+	height: 160px;
+	position: block;
+	float: right;
+	transform: rotate(90deg);	
+	border: 1px solid;
+	margin-right: 20px;
+	margin-top: 10px;
+	/*display: table-cell;
+	background-color: black;
+	color: white;*/
+	/*position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);*/
+}
+#first
+{
+	background-image: url('IMAGES/photo1.png');
+	background-repeat: no-repeat;
+	background-size: 160px 104px;
+}
+#second
+{
+	height: 200px;
+	background-image: url('IMAGES/adidas.png');
+	background-repeat: no-repeat;
+	background-size: contain;
 }
