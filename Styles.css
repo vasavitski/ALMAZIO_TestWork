@@ -35,8 +35,8 @@
 {
 	display: block;
 	width: 100%;
-	border: 1px solid;
 	height: 532px;
+	border-color: red;
 }
 .preview_img
 {
@@ -112,18 +112,13 @@
 {
 	display: block;
 
-	top: 508px;
-	left: 337px;
-/*	width:  700px;
-	height: 400px;/*975px;*/
-
-	width:  700px;
+	width:  975px;
 	height: 700px;/*975px;*/
 
 	background-color: yellow;
 	transform: rotate(-90deg);
-
-	padding-left: 0px;
+	margin-top: 134px;
+	margin-left: -138px;
 }
 .page_num
 {
@@ -132,40 +127,58 @@
 	height: 87px;
 	background-color: coral;	
 }
-/*.catalog
+
+.photo_item
 {
-	-moz-columns: 160px 2;
-    -webkit-columns: 50px 5;
-    columns: 160px 2;
-    height: 200px;
-}*/
-.myday
-{
-	width: 150px;
-	height: 160px;
-	position: block;
+	/*width: 160px;
+	height: 104px;*/
+	margin: auto;
+	min-width: 160px;
+	min-height: 104px;
+	max-width: 200px;
+	max-height: 200px;
+	width: auto;
+	height: auto;
+	display: block;
 	float: right;
 	transform: rotate(90deg);	
-	border: 1px solid;
-	margin-right: 20px;
-	margin-top: 10px;
-	/*display: table-cell;
-	background-color: black;
-	color: white;*/
-	/*position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);*/
-}
-#first
-{
-	background-image: url('IMAGES/photo1.png');
+	margin-right: -28px; /*Отступ сверху*/
+	margin-top: 28px;    /*Отступ слева*/
+	margin-left: -11px;   /*Отступ между строками*/
+	margin-bottom: 47px; /*Ширина между колонками*/
+	/*padding-left: -100px;*/
+	padding-left: -100px;
+	background-size: auto;
 	background-repeat: no-repeat;
-	background-size: 160px 104px;
+
 }
-#second
+
+.photoBound
 {
-	height: 200px;
-	background-image: url('IMAGES/adidas.png');
-	background-repeat: no-repeat;
-	background-size: contain;
+	min-width: 160px;
+	min-height: 104px;
+
+	max-height: 208px;
+
+	width: auto;
+	height: auto;
+	display: block;
+	float: right;
+	transform: rotate(90deg);	
+	margin-right: -28px; /*Отступ сверху*/
+	margin-top: 28px;    /*Отступ слева*/
+	margin-left: -11px;   /*Отступ между строками*/
+	margin-bottom: 47px; /*Ширина между колонками*/
+	padding-left: -100px;
+	border: 1px solid red;
+}
+
+.photo_item2
+{
+background-repeat     : no-repeat;
+background-size       : cover;
+background-position-x : 50%;
+background-position-y : 50%;
+
+border: 1px solid blue;
 }
