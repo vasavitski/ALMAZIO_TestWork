@@ -125,10 +125,37 @@
 	display: block;
 	width: 700px;
 	height: 87px;
-	background-color: coral;	
+	/*background-color: coral;	*/
 	margin: 0 auto;
 	margin-top: 120px;
 }
+
+.page_num_
+{
+	display: block;
+	float: left;
+	margin-top: 37px;
+	height: 13px;	
+	width: 357px;
+	padding-left: 1px;
+	background-image: url('IMAGES/Pages_num.png');
+	background-repeat: no-repeat;
+	z-index: 0;
+}
+
+.Active_page
+{
+	display: block;
+	position: relative;
+	bottom: 11px;
+	left: 91px;
+	height: 34px;
+	width: 34px;
+	background-image: url('IMAGES/Active_page.png');
+	z-index: 99;
+	opacity: 0.7;
+}
+
 .photo_item
 {
 	margin: auto;
