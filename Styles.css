@@ -97,15 +97,16 @@
 {
 	display: block;
 	width: 100%;
-	height: 67px;	
+	height: 67px;
 }
 .preview_labelImg
 {
 	display: block;
 	float: left;
 	margin-top: 16px;
-	height: 30px;	
+	height: 29px;	
 	width: 668px;
+	padding-left: 1px;
 	background-image: url('IMAGES/Preview_label.png');
 }
 .catalog
@@ -113,12 +114,11 @@
 	display: block;
 
 	width:  975px;
-	height: 700px;/*975px;*/
+	height: 701px;/*975px;*/
 
-	background-color: yellow;
 	transform: rotate(-90deg);
-	margin-top: 134px;
-	margin-left: -138px;
+	margin-top: 128px;
+	margin-left: -137px;
 }
 .page_num
 {
@@ -126,16 +126,15 @@
 	width: 700px;
 	height: 87px;
 	background-color: coral;	
+	margin: 0 auto;
+	margin-top: 120px;
 }
-
 .photo_item
 {
-	/*width: 160px;
-	height: 104px;*/
 	margin: auto;
 	min-width: 160px;
 	min-height: 104px;
-	max-width: 200px;
+	max-width: 160px;
 	max-height: 200px;
 	width: auto;
 	height: auto;
@@ -143,42 +142,29 @@
 	float: right;
 	transform: rotate(90deg);	
 	margin-right: -28px; /*Отступ сверху*/
-	margin-top: 28px;    /*Отступ слева*/
-	margin-left: -11px;   /*Отступ между строками*/
-	margin-bottom: 47px; /*Ширина между колонками*/
-	/*padding-left: -100px;*/
+	margin-top: 29px;    /*Отступ слева*/
+	margin-left: -11px;  /*Отступ между строками*/
+	margin-bottom: 46px; /*Ширина между колонками*/
 	padding-left: -100px;
-	background-size: auto;
-	background-repeat: no-repeat;
-
+	border: 0px solid red;
 }
-
-.photoBound
+.photoBorder
 {
-	min-width: 160px;
-	min-height: 104px;
-
-	max-height: 208px;
-
-	width: auto;
-	height: auto;
+	
+	height: 160px;
+	/*min-height: 104px;*/
 	display: block;
-	float: right;
+	float: left;
 	transform: rotate(90deg);	
-	margin-right: -28px; /*Отступ сверху*/
-	margin-top: 28px;    /*Отступ слева*/
-	margin-left: -11px;   /*Отступ между строками*/
-	margin-bottom: 47px; /*Ширина между колонками*/
-	padding-left: -100px;
-	border: 1px solid red;
+
+	border: 1px solid blue;
 }
 
-.photo_item2
+#Date_Head
 {
-background-repeat     : no-repeat;
-background-size       : cover;
-background-position-x : 50%;
-background-position-y : 50%;
-
-border: 1px solid blue;
+	background-repeat: no-repeat;
+	border: 0px solid;
+	vertical-align: middle;
+	align-items: center;
+	background-position: 34px 25px;
 }
