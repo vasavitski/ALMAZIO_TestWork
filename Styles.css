@@ -173,18 +173,14 @@
 	margin-left: -11px;  /*Отступ между строками*/
 	margin-bottom: 46px; /*Ширина между колонками*/
 	padding-left: -100px;
-	border: 0px solid red;
 }
 .photoBorder
 {
 	
 	height: 160px;
-	/*min-height: 104px;*/
 	display: block;
 	float: left;
 	transform: rotate(90deg);	
-
-	border: 1px solid blue;
 }
 
 #Date_Head
@@ -194,4 +190,13 @@
 	vertical-align: middle;
 	align-items: center;
 	background-position: 34px 25px;
+}
+#doublePhoto
+{
+	height: 320px;
+	margin-right: 19px; /*Отступ сверху*/
+	margin-top: -19px;    /*Отступ слева*/
+	margin-left: 64px;  /*Отступ между строками*/
+	float: right;
+	background-size: auto auto;
 }
